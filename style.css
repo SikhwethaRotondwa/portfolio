@@ -1,0 +1,200 @@
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'josephine Sans', sans-serif;
+    box-sizing: border-box;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(138, 138, 174);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(138, 138, 174);
+}
+
+.button{
+    background-color: rgb(138, 138, 174);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/*about me*/
+.aboutme{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #a6a6a6a6;
+}
+.aboutme img{
+    height: auto;
+    max-width: 430px;
+    
+}
+.abouttext{
+    width: 550px ;
+}
+.me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abouttext h2{
+    font-family: fantasy;
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: rgb(138, 138, 174);
+}
+.aboutme h5{
+    color: rgb(237, 231, 231);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.aboutme p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/*project*/
+.projects{
+    background: whitesmoke;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align:center ;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #a6a6a6a6;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+}
+h5{
+    font-size: 23px;
+    margin-bottom:15px;
+}
+
+.paragraph p{
+    font: size 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .press{
+    background-color: rgb(138, 138, 174);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 1px 20px;
+    border-radius: 30px;
+}
+
+.contact{
+    width: 100%;
+    height:290px;
+    background-color:#a6a6a6a6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .press-two{
+    background-color: rgb(138, 138, 174);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
